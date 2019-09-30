@@ -17,6 +17,8 @@ describe 'Multiple students' do
   end
 end
 
+=begin
+This isnt supposed ot be here
 describe 'form page' do
   it 'form renders with the new action' do
     visit new_student_path
@@ -45,6 +47,7 @@ describe 'form page' do
     expect(Student.last.first_name).to eq("Sansa")
   end
 end
+=end
 
 describe 'Show page' do
   before do
